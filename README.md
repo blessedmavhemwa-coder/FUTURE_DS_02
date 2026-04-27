@@ -56,6 +56,8 @@ The dashboard includes the following pages:
 - CLV Distribution Histogram
 - Retention by Tenure
 
+---
+
 ## 📐 DAX Measures
 
 Key measures used in the dashboard:
@@ -100,3 +102,36 @@ VAR OriginalCount =
     )
 RETURN
     DIVIDE([Total Customers], OriginalCount, 0)
+```
+
+---
+
+## 💡 Recommendations
+
+Based on the analysis, here are the top retention strategies:
+
+| **Priority** | **Action** | **Expected Impact** |
+|--------------|------------|---------------------| 
+| High | Incentivize month-to-month customers to switch to annual contracts (offer $50 bill credit) | 15-20% churn reduction |
+| High | Implement 90-day onboarding program for new Fiber optic customers | 10-15% churn reduction |
+| Medium | Offer $5/month discount for switching from electronic check to autopay | 8-10% churn reduction |
+| Medium | Bundle Tech Support + Online Security for Fiber customers | 5-8% churn reduction |
+| Low | Create loyalty program rewarding customers every 6 months | 3-5% churn reduction |
+
+---
+
+## 🛠️ Tools Used
+
+| **Tool**	| **Purpose** |
+|-----------|-------------|
+| Power BI Desktop | Data visualization and dashboard creation |
+| DAX | Measures and calculations |
+| Power Query | Data cleaning and transformation |
+| Excel | Initial data exploration |
+| GitHub | Version control and project hosting |
+
+---
+
+## 📧 Contact
+
+Blessed Mavhemwa - blessedmavhemwa@gmail.com
